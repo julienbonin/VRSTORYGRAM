@@ -1,0 +1,13 @@
+
+user_id int NOT NULL;
+username VARCHAR(30) NOT NULL;
+first_name VARCHAR(30) NOT NULL;
+last_name VARCHAR(30) NOT NULL;
+email  VARCHAR(30) NOT NULL;
+password TINYTEXT NOT NULL;
+city VARCHAR(30) NOT NULL;
+state VARCHAR(30) NOT NULL;
+user_type ENUM('student', 'educator') NOT NULL;
+creation_date TIMESTAMP;
+
+
