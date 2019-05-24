@@ -164,12 +164,14 @@ footer {
 .featured_content {
   border-style: solid;
   border-color: red;
+  /** 
   border-top: none;
   border-bottom: none;
   border-width: thin;
+  **/
   background-color: white;
   margin: .25%;
-  height: 800px;
+  height: auto; /** <-- changed this to auto for testing **/
 }
 .newest_content {
   display: grid;
