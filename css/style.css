@@ -163,6 +163,7 @@ footer {
 }
 .featured_content {
   border-style: solid;
+  border-color: red;
   border-top: none;
   border-bottom: none;
   border-width: thin;
