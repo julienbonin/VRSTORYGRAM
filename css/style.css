@@ -164,9 +164,11 @@ footer {
 .featured_content {
   border-style: solid;
   border-color: red;
+  border-top: none;
+  border-bottom: none;
   background-color: red;
   margin: .25%;
-  height: auto;
+  height: 100%;
 }
 .newest_content {
   display: grid;
