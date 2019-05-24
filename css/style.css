@@ -75,6 +75,7 @@ header {
 }
 /*** CONTENT ***/
 .content_div {
+  display: grid;
   grid-area: content_div;
   background-color: #ffffff;
   height: 100%;
@@ -157,6 +158,7 @@ footer {
 /*** INDEX.php ***/
 .index_content_div {
   display: grid;
+  grid-area: index_content_div;
   grid-template-rows: auto 35%;
   height: auto;
   background-color: green;
