@@ -159,19 +159,14 @@ footer {
   display: grid;
   grid-template-rows: auto 35%;
   height: auto;
-  background-color: black;
+  background-color: green;
 }
 .featured_content {
   border-style: solid;
   border-color: red;
-  /** 
-  border-top: none;
-  border-bottom: none;
-  border-width: thin;
-  **/
   background-color: red;
   margin: .25%;
-  height: auto; /** <-- changed this to auto for testing **/
+  height: auto;
 }
 .newest_content {
   display: grid;
