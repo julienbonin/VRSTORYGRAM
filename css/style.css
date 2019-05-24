@@ -160,18 +160,22 @@ footer {
   grid-template-rows: auto 35%;
   height: auto;
   background-color: green;
+  border-style: solid;
+  border-color: blue;
 }
 .featured_content {
   border-style: solid;
+  grid-area: featured_content;
   border-color: red;
   border-top: none;
   border-bottom: none;
-  background-color: red;
+  background-color: white;
   margin: .25%;
   height: 100%;
 }
 .newest_content {
   display: grid;
+  grid-area: newest_content;
   grid-template-rows: 20% auto;
   margin: 2px;
   border-style: solid;
