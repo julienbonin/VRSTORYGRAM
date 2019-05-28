@@ -79,6 +79,7 @@ header {
   grid-area: content_div;
   grid-template-row: auto;
   grid-template-column: auto;
+  grid-template-areas: " index_content_div ";
   background-color: #ffffff;
   height: 100%;
   min-height: 700px;
@@ -162,29 +163,26 @@ footer {
   display: grid;
   grid-area: index_content_div;
   grid-template-rows: auto 35%;
-  height: auto;
-  background-color: green;
+  grid-template-areas:
+  " featured_content "
+  " newest_content ";
   border-style: solid;
-  border-color: blue;
-}
-.featured_content {
-  border-style: solid;
-  grid-area: featured_content;
-  border-color: red;
   border-top: none;
   border-bottom: none;
+  min-height: 800px;
+
+}
+.featured_content {
+  grid-area: featured_content;
   background-color: white;
-  margin: .25%;
   height: 100%;
 }
 .newest_content {
   display: grid;
   grid-area: newest_content;
   grid-template-rows: 20% auto;
-  margin: 2px;
-  border-style: solid;
-  border-width: thin;
   background-color: darkgrey;
+  border-top: solid;
 }
 .newest_content h1 {
   text-align: center;
