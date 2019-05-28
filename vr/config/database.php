@@ -54,13 +54,13 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => '127.0.0.1',
-            'database'  => 'IdeaSpaceVR',
-            'username'  => 'julienbonin',
-            'password'  => 'J10r18B2',
+            'host'      => '',
+            'database'  => '',
+            'username'  => '',
+            'password'  => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix'    => 'isvr_',
+            'prefix'    => '',
             'strict'    => false,
         ],
 

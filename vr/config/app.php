@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => 'base64:HZMOoJqFMDuqinx+7aB8u3VJkiPSlqdOXq1/i0FvKz0=',
+    'key' => 'v4oJdL6AssbleL0rWSRmJyi2RsJy3p9d',
 
     'cipher' => 'AES-256-CBC',
 
