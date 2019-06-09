@@ -16,7 +16,7 @@ COPY scripts /var/www/html/
 
 COPY vr /var/www/html/
 
-PATH /var/www/html/index.php
+ENTRYPOINT["/var/www/html/"]
 
 RUN echo "installing" \
     && apt update \
