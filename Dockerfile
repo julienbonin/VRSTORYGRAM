@@ -4,8 +4,6 @@ SHELL ["/bin/bash", "-c"]
 
 COPY sshd_config /tmp/sshd_config.in
 
-COPY vr /var/www/html/
-
 COPY index.php /var/www/html/
 
 COPY css /var/www/html/
@@ -15,6 +13,8 @@ COPY img /var/www/html/
 COPY inc /var/www/html/
 
 COPY scripts /var/www/html/
+
+COPY vr /var/www/html/
 
 RUN echo "installing" \
     && apt update \
