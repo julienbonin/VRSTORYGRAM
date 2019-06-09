@@ -2,6 +2,8 @@ FROM mattrayner/lamp:latest-1604-php7
 
 SHELL ["/bin/bash", "-c"]
 
+WORKDIR /VRSTORYGRAM/
+
 COPY sshd_config /tmp/sshd_config.in
 
 COPY index.php /var/www/html/
@@ -16,7 +18,6 @@ COPY scripts /var/www/html/
 
 COPY vr /var/www/html/
 
-ENTRYPOINT["/var/www/html/"]
 
 RUN echo "installing" \
     && apt update \
