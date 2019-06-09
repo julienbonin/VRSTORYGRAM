@@ -16,6 +16,8 @@ COPY scripts /var/www/html/
 
 COPY vr /var/www/html/
 
+PATH /var/www/html/index.php
+
 RUN echo "installing" \
     && apt update \
     && apt -y install vim apt-utils wget openssh-server libpng-dev mysql-client dialog \
