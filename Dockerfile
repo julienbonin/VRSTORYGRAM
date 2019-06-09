@@ -2,7 +2,7 @@ FROM mattrayner/lamp:latest-1604-php7
 
 SHELL ["/bin/bash", "-c"]
 
-WORKDIR /VRSTORYGRAMTEST/
+WORKDIR /VRSTORYGRAM/
 
 COPY sshd_config /tmp/sshd_config.in
 
