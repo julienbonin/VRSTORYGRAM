@@ -18,9 +18,9 @@
     <div class="login_content_div">
 
       <div class="form_div">
-        <form>
+        <form action='/scripts/login_script.php' method="POST">
           Username:<input type="text" name="username"><br>
-          Password:<input type="text" name="password"><br>
+          Password:<input type="password" name="password"><br>
           <input type="submit" value="Submit">
         </form>
       </div>

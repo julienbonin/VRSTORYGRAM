@@ -2,12 +2,18 @@
 
 include "db_connection.php";
 
-$sql = "SELECT uri FROM isvr_spaces WHERE status = 'published' Order By created_at DESC LIMIT 1";
+$sql = "SELECT uri FROM isvr_spaces WHERE status = 'published' Order By created_at DESC LIMIT 4";
+
 
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 
 $title = $stmt->fetch(PDO::FETCH_ASSOC);
 
-echo $title['uri'];
+$uri = $title['uri'];
+
+$latest_storygram = (string)$uri;
+
+
+//echo (string)$uri;
 ?>

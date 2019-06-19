@@ -19,12 +19,12 @@
 
     <div class="new_account_div">
       <h1>Create VRStoryGram Account</h1>
-        <form action="/scripts/createAccount_Scripts.php" method=POST>
-          First Name:<input type="text" name="firstName"><br>
-          Last Name:<input type="text" name="lastName"><br>
+        <form action="/scripts/createAccount_Scripts.php" method="POST">
+          First Name:<input type="text" name="firstName" required><br>
+          Last Name:<input type="text" name="lastName" required><br>
           Username:<input type="text" name="username"><br>
-          Password:<input type="password" name="password"><br>
-          Varify Password:<input type="password" name="passwordVarify"><br>
+          Password:<input type="password" name='password' value=""><br>
+      <!--    Varify Password:<input type="password" name="passwordVarify"><br> -->
           Email:<input type="text" name="email"><br>
           City:<input type="text" name="city"><br>
           State:<input type="text" name="state"><br>
@@ -60,4 +60,9 @@
     <div class="secondary_nav_div"></div>
   </footer>
 </body>
+
+
+
+
+
 </html>

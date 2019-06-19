@@ -1,7 +1,7 @@
 <?php
 
 $servername = "127.0.0.1";
-$dbName = "IdeaSpaceVR";
+$dbName = "ideaspace";
 $username = "julienbonin";
 $password = "J10r18B2";
 
@@ -10,7 +10,7 @@ try {
 
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  echo "Successful Connection to database";
+//  echo "Successful Connection to database";
 
 //  echo "Connected Successfull";
 }

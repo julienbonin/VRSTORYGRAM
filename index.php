@@ -19,15 +19,15 @@
   <div class="content_div">
     <div class="index_content_div">
 
-      <div class="featured_content"></div>
+      <div class="featured_content"><iframe width="100%" height="100%"  allowfullscreen frameborder="0" src="http://vrstorygram.local/vr/<?php include('scripts/latest_storygram_script.php'); echo $latest_storygram; ?>"></iframe></div>
 
       <div class="newest_content">
         <h1>Latest StoryGrams</h1>
         <div class="latest_item_div">
-          <div class="latest_item_1"> <!-- <iframe width="100%" height="100%" src="https://poly.google.com/view/bhWd-vAEchr/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe> --> </div>
-          <div class="latest_item_2"> <!-- <iframe width="100%" height="100%" src="https://poly.google.com/view/bhWd-vAEchr/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe> --> </div>
-          <div class="latest_item_3"> <!--  <iframe width="100%" height="100%" src="https://poly.google.com/view/6sffLk5ilkf/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe> --> </div>
-          <div class="latest_item_4"> <!-- <iframe width="100%" height="100%" src="https://poly.google.com/view/eg2X4zURuBw/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe> --> </div>
+          <div class="latest_item_1"> <iframe width="100%" height="100%" allowfullscreen frameborder="0" src="http://vrstorygram.local/vr/test-space-2"></iframe> </div>
+          <div class="latest_item_2"> <iframe width="100%" height="100%"  allowfullscreen frameborder="0" src="http://vrstorygram.local/vr/test-space-4"></iframe> </div>
+          <div class="latest_item_3"> <iframe width="100%" height="100%"  allowfullscreen frameborder="0" src="http://vrstorygram.local/vr/test-space-1"></iframe></div>
+          <div class="latest_item_4"> <iframe width="100%" height="100%"  allowfullscreen frameborder="0" src="http://vrstorygram.local/vr/test-space-5"></iframe> </div>
         </div>
       </div>
 

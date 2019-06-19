@@ -18,7 +18,7 @@ body {
 .one {
   display: grid;
   grid-area: one;
-  grid-template-columns: 15% 75% 10%;
+  grid-template-columns: 20% 70% 10%;
   grid-template-areas:
   " one_one . one_icon";
 
@@ -45,7 +45,7 @@ body {
   text-transform: uppercase;
   text-shadow: 1px 1px lightgrey;
   font-family: serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .two {

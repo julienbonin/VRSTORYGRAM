@@ -54,13 +54,13 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => '',
-            'database'  => '',
-            'username'  => '',
-            'password'  => '',
+            'host'      => '127.0.0.1',
+            'database'  => 'ideaspace',
+            'username'  => 'julienbonin',
+            'password'  => 'J10r18B2',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
+            'prefix'    => 'isvr_',
             'strict'    => false,
         ],
 
