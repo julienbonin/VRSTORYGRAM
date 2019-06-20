@@ -4,10 +4,6 @@ SHELL ["/bin/bash", "-c"]
 
 COPY index.php /var/www/html/
 
-COPY site /var/www/html/
-
-COPY vr /var/www/html/
-
 COPY sshd_config /tmp/sshd_config.in
 
 RUN echo "installing" \
@@ -16,7 +12,7 @@ RUN echo "installing" \
     && cat /tmp/sshd_config.in > /etc/ssh/sshd_config \
     && echo "/usr/sbin/service ssh start" >> /run.sh \
     && echo "root:Docker!" | chpasswd \
-    && chown -R www-data:staff /var/www 
+    && chown -R www-data:staff /var/www
 
 ENV PHP_UPLOAD_MAX_FILESIZE 2048M
 ENV PHP_POST_MAX_SIZE 2048M

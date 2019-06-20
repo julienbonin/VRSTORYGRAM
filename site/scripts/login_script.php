@@ -29,9 +29,9 @@ if ($user_type === "student") {
   header("Location: /site/inc/userAccount_Student.php? name=$user_name");
 }
 elseif ($user_type === "educator") {
-  header("Location: /site/inc/userAccount_Educator.php");
+  header("Location: /site/inc/userAccount_Educator.php? name=$user_name");
 }
 elseif ($user_type === "admin") {
-  header("Location: /site/inc/userAccount_Admin.php");
+  header("Location: /site/inc/userAccount_Admin.php? name=$user_name");
 }
  ?>
