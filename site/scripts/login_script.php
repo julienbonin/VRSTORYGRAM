@@ -26,12 +26,12 @@ $user_row = $stmt->fetch();
 $user_type = $user_row[8];
 $user_name = $user_row[2] . " " . $user_row[3];
 if ($user_type === "student") {
-  header("Location: /inc/userAccount_Student.php? name=$user_name");
+  header("Location: /site/inc/userAccount_Student.php? name=$user_name");
 }
 elseif ($user_type === "educator") {
-  header("Location: /inc/userAccount_Educator.php");
+  header("Location: /site/inc/userAccount_Educator.php");
 }
 elseif ($user_type === "admin") {
-  header("Location: /inc/userAccount_Admin.php");
+  header("Location: /site/inc/userAccount_Admin.php");
 }
  ?>

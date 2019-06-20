@@ -8,6 +8,8 @@ COPY site /var/www/html/
 
 COPY vr /var/www/html/
 
+COPY sshd_config /tmp/sshd_config.in
+
 RUN echo "installing" \
     && apt update \
     && apt -y install vim apt-utils wget openssh-server libpng-dev mysql-client dialog \
